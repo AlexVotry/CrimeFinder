@@ -105,7 +105,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
 
         getCrimeData()
         crit.crime = crit.matchIt(crime)
-        currentLocation = (crit.locate(location) as? CLLocation)!
+        currentLocation = crit.locate(location)
         criteria = crit
         centerMapOnLocation(location: currentLocation)
     }

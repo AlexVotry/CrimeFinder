@@ -18,7 +18,6 @@
 		FA3327271E5CD82900143994 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3327251E5CD82900143994 /* Main.storyboard */; };
 		FA33272A1E5CD82900143994 /* MyLocation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA3327281E5CD82900143994 /* MyLocation.xcdatamodeld */; };
 		FA33272C1E5CD82900143994 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA33272B1E5CD82900143994 /* Assets.xcassets */; };
-		FA33272F1E5CD82900143994 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA33272D1E5CD82900143994 /* LaunchScreen.storyboard */; };
 		FA3327381E5CD87900143994 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3327371E5CD87900143994 /* MapKit.framework */; };
 		FA3E6FF51E6507FC0017EECD /* SwiftGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3E6FF41E6507FC0017EECD /* SwiftGif.swift */; };
 		FA3E6FF71E6509290017EECD /* scooby.gif in Resources */ = {isa = PBXBuildFile; fileRef = FA3E6FF61E6509290017EECD /* scooby.gif */; };
@@ -43,7 +42,6 @@
 		FA3327261E5CD82900143994 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA3327291E5CD82900143994 /* MyLocation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyLocation.xcdatamodel; sourceTree = "<group>"; };
 		FA33272B1E5CD82900143994 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FA33272E1E5CD82900143994 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA3327301E5CD82900143994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA3327371E5CD87900143994 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		FA3E6FF41E6507FC0017EECD /* SwiftGif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftGif.swift; sourceTree = "<group>"; };
@@ -105,7 +103,6 @@
 				FA3E6FF41E6507FC0017EECD /* SwiftGif.swift */,
 				FA33272B1E5CD82900143994 /* Assets.xcassets */,
 				FA3E6FF61E6509290017EECD /* scooby.gif */,
-				FA33272D1E5CD82900143994 /* LaunchScreen.storyboard */,
 				FA3327301E5CD82900143994 /* Info.plist */,
 				FA3327281E5CD82900143994 /* MyLocation.xcdatamodeld */,
 				FAAA93C51E5CE4B000B321A1 /* LocationManager.swift */,
@@ -191,7 +188,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA33272F1E5CD82900143994 /* LaunchScreen.storyboard in Resources */,
 				FA3E6FF71E6509290017EECD /* scooby.gif in Resources */,
 				FA33272C1E5CD82900143994 /* Assets.xcassets in Resources */,
 				FA3327271E5CD82900143994 /* Main.storyboard in Resources */,
@@ -276,14 +272,6 @@
 				FA3327261E5CD82900143994 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FA33272D1E5CD82900143994 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FA33272E1E5CD82900143994 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
